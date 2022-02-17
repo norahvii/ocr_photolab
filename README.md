@@ -1,4 +1,5 @@
 Adjust documents for OCR from the comfort of Jupyter Lab.
+![](https://media.giphy.com/media/CWf6hu7Le6R9OwNasb/giphy.gif)
 
 ## Setup
 * `conda create --name photolab_env`
