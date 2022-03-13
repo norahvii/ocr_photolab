@@ -14,7 +14,7 @@ RUN conda install ipywidgets
 RUN conda install -c anaconda pillow
 
 # Download the latest Photolab files
-RUN git clone https://github.com/jopvivi/ocr_photolab.git
+RUN git clone https://github.com/norahvii/ocr_photolab.git
 
 # Set active working directory
 WORKDIR /ocr_photolab
