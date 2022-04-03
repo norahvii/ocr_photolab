@@ -1,4 +1,4 @@
-Adjust documents for OCR from the comfort of Jupyter Lab.
+Use ipywidgets to crop and adjust threshold values in a Jupyter notebook.
 
 ![](https://media.giphy.com/media/CWf6hu7Le6R9OwNasb/giphy.gif)
 
