@@ -3,8 +3,9 @@ FROM continuumio/miniconda3
 # Upgrade PIP
 RUN pip install --upgrade pip
 
-# Install pdf2image
+# Install pdf2image and pytesseract
 RUN pip install pdf2image
+RUN pip install -U git+https://github.com/madmaze/pytesseract.git
 
 # Install conda libraries
 RUN conda install jupyterlab
