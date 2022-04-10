@@ -28,3 +28,4 @@ if '*' in png_pattern:
 with open("out.txt", "w") as external_file:
         for target in png_name_list:
                 print(pytesseract.image_to_string(Image.open(target)), file=external_file)
+		#os.remote(target)
